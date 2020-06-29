@@ -1,0 +1,41 @@
+
+
+
+/* style subscribe section*/
+.email-box{
+    height: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.email-box i{
+    background: #661f1f;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.tbox,.button{
+    border: none;
+    outline: none;
+}
+
+.tbox{
+    width: 0px;
+    transition: 0.6s;
+}
+
+.email-box:hover > .tbox,.tbox:focus{
+    width: 260px;
+    padding: 0 10px;
+}
+
+.button{
+    background: #661f1f;
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
