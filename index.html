@@ -7,56 +7,41 @@
     <meta name="author" content="Resa Quinta">
     <meta name="project decription" content="Restaurant Bootstrap exercices">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/8d219f494c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap" rel="stylesheet">
     <title>Vibe's Restaurants| Resa's restaurant Bootstrap exercice</title>
 
 </head>
 
 <body>
 
-    <nav class="navbar narvbar-inverse">
-        <div class="countainer-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="./index.html"><img src="./assets/img/Vibe's Restaurants Logo.png" width="100px"></a>
+                <a class="navbar-brand" href="./index.html">Vibe's<br>Restaurants</a>
             </div>
+
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="./index.html">Home</a></li>
-                    <li><a href="#">Page 1</a></li>
-                    <li><a href="#">Page 2</a></li>
-                    <li><a href="#">Page 3</a></li>
-                </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Restaurants</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./index.html" class="active">Welcome</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./restaurants.html">Restaurants</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                    <li><a href="./contact.html">Contacts & Reservations</a></li>       
                 </ul>
             </div>
         </div>
     </nav>
-<!--
-    <div class="countainer-top">
-        <div class="row">
-            <div class="col-xs-12 col-md-1 top"><a href="./index.html">Welcome</a></div>
-            <div class="col-xs-12 col-md-2 top"><a href="./menu.html">Menu</a></div>
-            <div class="col-xs-12 col-md-2 top"><a href="./pictures.html">Pictures</a></div>
-            <div class="col-xs-12 col-md-2 top"><a href="index.html"><img src="./assets/img/Vibe's Restaurants en-tête 3.png" alt="Vibe's Restaurants Logo" width="85px"></a></div>
-            <div class="col-xs-12 col-md-2 top"><a href="./events.html">Events</a></div>
-            <div class="col-xs-12 col-md-2 top"><a href="./restaurants.html">Restaurants</a></div>
-            <div class="col-xs-12 col-md-1 top"><a href="./contact.html">Contact</a></div>
-        </div>
-    </div>-->
 
     <div class="countainer-img">
         <div class="row image">
@@ -64,7 +49,20 @@
         </div>
     </div>
 
-    <div class="coutainer-footer">
+    <!--jumbotron-->
+        
+    <div class="jumbotron">
+        <div class="container">
+            <h3>Events & Promos</h3>
+            <p>Retrouvez l'ensemble de nos events et promos en suivant le lien !</p>
+            <p><a class="btn btn-info btn-md" role="button" href="./events.html">En savoir plus <span class="glyphicon glyphicon glyphicon-hand-right"></span></a></p>
+        </div>
+    </div>
+
+    </div>
+
+<!--Footer-->
+    <div class="container-footer">
         <div class="row footer">
             <div class="col-xs-12 col-md-6"><h3>Social</h3>
                 <div class="row social">
