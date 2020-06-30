@@ -111,3 +111,9 @@ container-footer {
     cursor: pointer;
     border-radius: 15px;
 }
+
+/*Contact Us*/
+
+.contact {
+    padding-top: 15px;
+}
