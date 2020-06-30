@@ -1,21 +1,15 @@
 body {
     padding-top: 5px;
     padding-bottom: 10px;
-    width: 100%;
+    width: 98%;
 }
 
 [class*="col-"] {
     text-align: center;
 }
 
-.main-img {
-    max-width: 80%;
-    height: auto;
-}
-
-
 /*style top section*/
-.top a {
+/*.top a {
     color: #661f1f;
 }
 .top a:link{
@@ -30,8 +24,12 @@ body {
     font-size: x-large;
     text-shadow: 1px 2px #aca6a6;
     transition: font-size 0.5s;
-}
+}*/
+/* style footer section*/
 
+.coutainer-footer {
+    background-color: #fafafa;
+}
 /*style social section*/
 
 
